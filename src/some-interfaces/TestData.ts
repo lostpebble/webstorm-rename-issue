@@ -1,10 +1,10 @@
-interface ITestData {
+interface IRenameMyIdProperty {
   id: string;
   num: number;
   tag: string[];
 }
 
-function createData(): ITestData {
+function createData(): IRenameMyIdProperty {
   return {
     id: "123",
     num: 123,
