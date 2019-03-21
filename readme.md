@@ -12,7 +12,7 @@ chrome.tabs.sendMessage(tabs[0].id, message, (response) => {
 
 Has become:
 
-```
+```typescript jsx
 chrome.tabs.sendMessage(tabs[0]._key, message, (response) => {
   resolve(response);
 });
