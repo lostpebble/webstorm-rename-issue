@@ -1,4 +1,4 @@
-* Look inside the `TestThings.ts` file and see that certain things are named `id`.
+* Look inside the `src/some-other-interfaces/TestThings.ts` file and see that certain things are named `id`.
 
 * Refactor (rename) using SHIFT + F6 the property name for `id` to (for example) `_key` in the interface `IRenameMyIdProperty` inside `src/some-interfaces/TestData.ts`
 
@@ -10,7 +10,7 @@ chrome.tabs.sendMessage(tabs[0].id, message, (response) => {
 });
 ```
 
-Has become 
+Has become:
 
 ```
 chrome.tabs.sendMessage(tabs[0]._key, message, (response) => {
